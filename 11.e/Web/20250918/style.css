@@ -1,0 +1,11 @@
+
+#egyszeru table, #egyszeru table tr td{
+    border: 3px black solid;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+#egyszeru table{
+    
+    border-collapse: separate;
+}

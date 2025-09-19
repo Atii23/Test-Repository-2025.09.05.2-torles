@@ -1,0 +1,228 @@
+.blog-post{
+    max-height: 300px;
+    width: 30%;
+    background-color: lightgreen;
+    margin: auto;
+    padding: 2%;
+}
+.post-title{
+    font-weight: bold;
+}
+.post-date{
+    color: blue;
+}
+.post-content{
+    color: rgb(60, 60, 60);
+}
+.news-article{
+    width: 30%;
+    background-color: lightcoral;
+    margin: auto;
+    padding: 2%;
+}
+.article-title{
+    font-weight: bold;
+}
+.author-name{
+    color: black;
+}
+.article-summary{
+    color: rgb(60, 60, 60);
+}
+.product-description{
+    width: 30%;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 2%;
+}
+.product-title{
+    font-weight: bold;
+}
+.product-price{
+    color: orangered;
+}
+.product-details{
+    color: rgb(60, 60, 60);
+}
+.event-invitation{
+    width: 30%;
+    background-color: lightgray;
+    margin: auto;
+    padding: 2%;
+}
+.event-title{
+    font-weight: bold;
+}
+.event-date{
+    color: darkgrey;
+}
+.event-details{
+    color: rgb(60, 60, 60);
+}
+.ad-sidebar{
+    margin-top: 25px;
+    margin-left: 70%;
+    width: 30%;
+    height: 120px;
+    float: right;
+    background-color: darkgray;
+    padding: 2%;
+    border: 1px black solid;
+}
+.ad-title{
+    font-weight: bold;
+}
+.ad-content{
+    color: rgb(60, 60, 60);
+}
+.related-articles{
+    margin-top: 25px;
+    margin-left: 80%;
+    width: 20%;
+    height: 200px;
+    float: right;
+    background-color: white;
+    padding: 2%;
+    border: 1px black solid;
+}
+.articles-title{
+    font-weight: bold;
+}
+.articles-list{
+    font-size: 12pt;
+    color: black;
+    text-decoration: none;
+}
+.articles-list:hover{
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(100, 122, 255);
+}
+.bio-sidebar{
+    margin-top: 25px;
+    width: 20%;
+    margin-left: 80%;
+    height: 300px;
+    float: right;
+    background-color: lightgrey;
+    padding: 1%;
+    border: 1px black solid;
+}
+.bio-title{
+    font-weight: bold;
+}
+.bio-content{
+    text-align: left;
+    text-align: justify;
+    color: rgb(60, 60, 60);
+}
+.bio-content, img{
+    max-height: 200px;
+    float: right;
+}
+.quote-sidebarevent-title{
+    width: 30%;
+    float: right;
+    padding: 1%;
+    margin-top: 25px;
+    background-color: rgb(240, 240, 240);
+
+}
+.quote-content{
+    font-style: italic;
+    font-weight: normal;
+}
+.quote-author{
+    text-align: left;
+    font-size: small;
+}
+.recept-kártya {
+    width: 70%;
+    margin: auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.recept-header {
+    margin-bottom: 20px;
+}
+.recept-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.recept-bevezető {
+    font-size: 18px;
+    color: #555;
+}
+.recept-összetevők, .recept-lépés {
+    margin-bottom: 20px;
+}
+.recept-összetevők h2, .recept-lépés h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+.recept-összetevők ul, .recept-lépés ol {
+    padding-left: 20px;
+}
+.recept-összetevők li, .recept-lépés li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.recept-footer {
+    border-top: 1px solid #ddd;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.recept-footer p {
+    font-size: 14px;
+    color: #888;
+}
+.tudományos-cikk {
+    width: 70%;
+    margin: auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+}
+.cikk-header {
+    margin-bottom: 20px;
+}
+.cikk-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.cikk-bevezető {
+    font-size: 18px;
+    color: #555;
+}
+.cikk-tartalom, .cikk-következtetés {
+    margin-bottom: 20px;
+}
+.cikk-tartalom h2, .cikk-következtetés h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+.cikk-tartalom p, .cikk-következtetés p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.cikk-footer {
+    border-top: 1px solid #ddd;
+    padding: 10px 20px;
+    background-color: #e9e9e9;
+    text-align: center;
+}
+.cikk-footer p {
+    font-size: 14px;
+    color: #888;
+}

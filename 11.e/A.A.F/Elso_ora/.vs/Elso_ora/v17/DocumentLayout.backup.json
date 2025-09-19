@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\11.e\\A.A.F\\Elso_ora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96F639D2-E15B-47F9-8217-F970EE6D9311}|Elso_ora\\Elso_ora.csproj|z:\\11.e\\a.a.f\\elso_ora\\elso_ora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96F639D2-E15B-47F9-8217-F970EE6D9311}|Elso_ora\\Elso_ora.csproj|solutionrelative:elso_ora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\11.e\\A.A.F\\Elso_ora\\Elso_ora\\Program.cs",
+              "RelativeDocumentMoniker": "Elso_ora\\Program.cs",
+              "ToolTip": "Z:\\11.e\\A.A.F\\Elso_ora\\Elso_ora\\Program.cs",
+              "RelativeToolTip": "Elso_ora\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:13:25.618Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

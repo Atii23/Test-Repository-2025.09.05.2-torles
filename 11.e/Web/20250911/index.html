@@ -1,0 +1,177 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <article>
+        <h2>Blog bejegyzés címe</h2>
+        <p>Ez a bejegyzés tartalma...</p>
+    </article>
+    <aside>
+        <h2>Kapcsolódó cikkek</h2>
+        <ul>
+        <li><a href="#">Cikk 1</a></li>
+        <li><a href="#">Cikk 2</a></li>
+        </ul>
+    </aside>
+    <main>
+        <h1>Főcím</h1>
+        <p>Ez a weboldal fő tartalma...</p>
+    </main>
+    <header>
+        <h1>Weboldal címe</h1>
+        <nav>
+        <ul>
+        <li><a href="#">Főoldal</a></li>
+        <li><a href="#">Rólunk</a></li>
+        <li><a href="#">Kapcsolat</a></li>
+        </ul>
+        </nav>
+    </header>
+    <footer>
+        <p>&copy; 2023 Weboldal neve. Minden jog fenntartva.</p>
+        <p><a href="mailto:info@weboldal.hu">Kapcsolat</a></p>
+    </footer>
+    <section>
+        <h2>Szakasz címe</h2>
+        <p>Ez a szakasz tartalma...</p>
+    </section>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szemantikus elemek feladatok</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Egyéni CSS -->
+     <link rel="stylesheet" href="style.css">
+
+    </head>
+<body>
+    <div class="ad-sidebar">
+        <!-- Ide kerülnek az elemek a feladatokhoz -->
+        <aside>
+            <h4 class="ad-title">Hirdetés</h4>
+            <p class="ad-content">vásárolj most 50% kedvezménnyel</p>
+        </aside>
+    </div>
+    <div class="related-articles">
+        <!-- Ide kerülnek az elemek a feladatokhoz -->
+        <aside>
+            <h4 class="articles-title">Kapcsolodó cikkek</h4>
+            <p><a class="articles-list">Cikk 1</a></p>
+            <p><a class="articles-list">Cikk 2</a></p> 
+            <p><a class="articles-list">Cikk 3</a></p> 
+        </aside>
+    </div>
+    <div class="bio-sidebar">
+        <!-- Ide kerülnek az elemek a feladatokhoz -->
+        <aside>
+            <h4 class="bio-title">Rövid Önéletrajz</h4>
+            <img class="bio-content" src="360_F_53927198_DWEkQjU65vbbXZrN6qekxJl09ILwEXDI.jpg" alt="Photo">
+            <br>
+            <p class="bio-content">Ez egy rövid életrajz</p>
+        </aside>
+    </div>
+    <div class="quote-sidebarevent-title">
+        <!-- Ide kerülnek az elemek a feladatokhoz -->
+        <aside>
+            <h4 class="quote-content">"Há de úúúristen, hát oda van írva!!!"</h4>
+            <p class="quote-author">JustVidman</p>
+        </aside>
+    </div>
+    <div class="blog-post">
+        <!-- Ide kerülnek az elemek a feladatokhoz -->
+         <article>
+            <h4 class="post-title">Blogbejegyzés címe</h4>
+            <p class="post-date">2024. szeptember 17.</p>
+            <p class="post-content">Ez a blogbejegyzés tartalma...</p>
+         </article>
+    </div>
+    <br>
+    <div class="news-article">
+        <!-- Ide kerülnek az elemek a feladatokhoz -->
+         <article>
+            <h4 class="article-title">Cikk címe</h4>
+            <p class="author-name">Szerző: John Doe</p>
+            <p class="article-summary">Ez a hírcikk összefoglalója...</p>
+         </article>
+    </div>
+    <br>
+    <div class="product-description">
+        <!-- Ide kerülnek az elemek a feladatokhoz -->
+        <article>
+            <h4 class="product-title">Termék neve</h4>
+            <p class="product-price">Ár: 7,79$/gallon</p>
+            <p class="product-details">Ez a termék leírása...</p>
+        </article>
+    </div>
+    <br>
+    <div class="event-invitation">
+        <!-- Ide kerülnek az elemek a feladatokhoz -->
+        <article>
+            <h4 class="event-title">Szülinapi party meghívó</h4>
+            <p class="event-date">időpont: 2023. december 20.</p>
+            <p class="event-details">Gyere és ünnepeld velünk a szülinapot! <br> Helyszín: Budapest, Party utca 10. <br>Kezdés: 18:00. <br>Várunk sok szeretettel!</p>
+        </article>
+    </div>
+
+
+    <main class="recept-kártya">
+        <header class="recept-header">
+            <h1 class="recept-title">Csokis Süti</h1>
+            <p class="recept-bevezető">Ez a csokis süti recept gyors és egyszerű, tökéletes desszert minden alkalomra.</p>
+        </header>
+        <section class="recept-összetevők">
+            <h2>Hozzávalók:</h2>
+            <ul>
+                <li>200 g étcsokoládé</li>
+                <li>150 g vaj</li>
+                <li>200 g cukor</li>
+                <li>3 tojás</li>
+                <li>100 g liszt</li>
+            </ul>
+        </section>
+        <section class="recept-lépés">
+            <h2>Elkészítés:</h2>
+            <ol>
+                <li>Melegítsd elő a sütőt 180°C-ra.</li>
+                <li>Olvaszd meg a csokoládét és a vajat.</li>
+                <li>Keverd hozzá a cukrot, majd egyesével a tojásokat.</li>
+                <li>Szitáld bele a lisztet és keverd össze.</li>
+                <li>Öntsd a masszát egy kivajazott sütőformába és süsd 20-25 percig.</li>
+            </ol>
+        </section>
+        <footer class="recept-footer">
+            <p>Szerző: János | Forrás: Kedvenc Receptjeim</p>
+        </footer>
+    </main>
+
+
+    <main class="tudományos-cikk">
+        <header class="cikk-header">
+            <h1 class="cikk-title">Az AI Hatása a Jövő Munkaerőpiacára</h1>
+            <p class="cikk-bevezető">Ebben a cikkben megvizsgáljuk az AI technológia jövőbeli hatásait a munkaerőpiacra.</p>
+        </header>
+        <section class="cikk-tartalom">
+            <h2>Bevezetés</h2>
+            <p>Az AI technológia rohamos fejlődése számos területen gyakorol jelentős hatást...</p>
+        </section>
+        <section class="cikk-következtetés">
+            <h2>Következtetés</h2>
+            <p>Összességében az AI technológia várhatóan jelentős változásokat hoz a munkaerőpiacon...</p>
+        </section>
+        <footer class="cikk-footer">
+            <p>Szerző: Dr. Katalin | Forrás: Tudományos Közlemények</p>
+        </footer>
+    </main>   
+</body>
+</html>

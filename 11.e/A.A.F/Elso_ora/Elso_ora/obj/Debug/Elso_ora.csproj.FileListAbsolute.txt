@@ -1,0 +1,7 @@
+Z:\11.e\A.A.F\Elso_ora\Elso_ora\bin\Debug\Elso_ora.exe.config
+Z:\11.e\A.A.F\Elso_ora\Elso_ora\bin\Debug\Elso_ora.exe
+Z:\11.e\A.A.F\Elso_ora\Elso_ora\bin\Debug\Elso_ora.pdb
+Z:\11.e\A.A.F\Elso_ora\Elso_ora\obj\Debug\Elso_ora.csproj.AssemblyReference.cache
+Z:\11.e\A.A.F\Elso_ora\Elso_ora\obj\Debug\Elso_ora.csproj.CoreCompileInputs.cache
+Z:\11.e\A.A.F\Elso_ora\Elso_ora\obj\Debug\Elso_ora.exe
+Z:\11.e\A.A.F\Elso_ora\Elso_ora\obj\Debug\Elso_ora.pdb

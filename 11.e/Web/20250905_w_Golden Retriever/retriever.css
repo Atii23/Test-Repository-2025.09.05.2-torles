@@ -1,0 +1,92 @@
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: lightyellow;
+    opacity: 0.8;
+}
+
+body {
+    text-align: justify;
+    margin: auto;
+    font-size: 14pt;
+    font-family: 'Times New Roman', Times, serif;
+    width:60%;
+    padding: 0;
+    box-sizing: border-box;
+    color: #4d394b;
+}
+
+header {
+    text-align: center;
+    max-height: 400px;
+    background-color: #f8d37b;
+    padding: 20px;
+}
+
+header h1 {
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4d394b;
+}
+
+section {
+    padding: 40px;
+}
+
+section h2 {
+    color: #4d394b;
+}
+
+figcaption {
+    background-color: #f8d37b;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+.k {
+    text-align: center;
+}
+
+.kep {
+    margin-bottom: 30px;
+}
+
+.kep img {
+    width: 300px;
+    height: auto;
+}
+
+.kozep {
+    margin: auto;
+    display: block;
+}
+#jobb{
+    width: 200px;
+    float: right;
+    margin-left: 10px;
+}
